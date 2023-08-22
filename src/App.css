@@ -28,6 +28,62 @@
   color: #61dafb;
 }
 
+.lista{
+
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  justify-content:space-around ;
+  margin-top: 5em;
+}
+
+.lista section{
+  color: red;
+}
+
+.lista p{
+  color: black;
+}
+
+.condominio{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  
+}
+
+.condominio input{
+  height: 3vh;
+  width: 50%;
+  text-align: center;
+  margin:1em auto;
+}
+
+.condominio input::placeholder{
+  text-align: center;
+}
+
+.condominio input:focus{
+
+  border: 0.5em solid red;
+}
+
+.condominio button{
+  background-color: black;
+  color: white;
+  height: 3em;
+  width: 50%;
+  cursor: pointer;
+  margin:2em auto;
+}
+
+.condominio button:hover{
+  background-color: gray;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
